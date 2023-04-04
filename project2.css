@@ -1,0 +1,245 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background-color: aliceblue;
+    justify-content: center;
+}
+
+
+.t1{
+
+    margin-top: 100px;
+}
+
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    grid-gap: 50px;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+
+.img1{
+    height: 500px;
+    width: 60%;
+    background-color: white;
+    box-shadow: 5px 5px 5px 10px rgb(97, 96, 96);
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.img1:hover{
+    box-shadow:5px 5px 5px 10px rgb(53, 255, 130); 
+    background-color: black;
+    color: aqua;
+}
+
+
+.img2{
+    height: 500px;
+    width: 30%;
+    background-color:white;
+    box-shadow: 5px 5px 5px 10px rgb(97, 96, 96);
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.img2:hover{
+    box-shadow:5px 5px 5px 10px rgb(53, 255, 130); 
+    background-color: black;
+    color:aqua;
+}
+
+.img3{
+    height: 500px;
+    width: 60%;
+    background-color: white;
+    box-shadow: 5px 5px 5px 10px rgb(97, 96, 96);
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.img3:hover{
+    box-shadow:5px 5px 5px 10px rgb(53, 255, 130); 
+    background-color: black;
+    color: aqua;
+}
+.v2{
+    height: 110px;
+    width: 100%;
+    background-image: url(https://d3nn873nee648n.cloudfront.net/900x600/19653/220-EN952312.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.v3{
+    height: 110px;
+    width: 100%;
+    background-image: url(https://d3nn873nee648n.cloudfront.net/900x600/19984/300-SM987291.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.v4{
+    height: 110px;
+    width: 100%;
+    background-image: url(https://d3nn873nee648n.cloudfront.net/900x600/19460/220-ES932486.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.v5{
+    height: 110px;
+    width: 100%;
+    background-image: url(https://d3nn873nee648n.cloudfront.net/900x600/19078/220-SM895072.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
+
+.footer{
+    height: 300px;
+    width: 100%;
+    background-color: rgb(71, 71, 71);
+    /* margin-top: 40px; */
+    /* display: grid; */
+    grid-gap: 10px;
+    /* flex-wrap: wrap; */
+    
+}
+
+
+button{
+    margin-left: 15px;
+    margin-top: 20px;
+    padding: 5px 15px 5px 15px;
+}
+
+
+button:hover{
+    background-color: black;
+    color: aqua;
+}
+
+
+.b1{
+    position: relative;
+    top: -20px;
+    background-color: transparent;
+    color: blue;
+}
+.b1:hover{
+   background-color: rgb(209, 206, 206);
+   color: black;
+}
+
+
+input{
+    margin-top: 5px;
+    padding: 5px 15px 5px;
+    border-radius: 10px;
+
+}
+
+
+
+.register{
+    height: 400px;
+    width: 70%;
+    background-image: url(https://d3nn873nee648n.cloudfront.net/900x600/18625/220-SM846982.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+input:hover{
+    background-color: black;
+    color: aqua;
+}
+
+input::placeholder{
+    color:black ;
+}
+input{
+    background-color: transparent;
+}
+
+.img4{
+    height: 500px;
+    width: 30%;
+    background-color:white;
+    /* position: relative; */
+    /* top: -100px; */
+    box-shadow: 5px 5px 5px 10px rgb(97, 96, 96);
+    /* display: flex; */
+    /* margin-top: 100px; */
+    /* flex-wrap: wrap; */
+}
+.img4:hover{
+    box-shadow:5px 5px 5px 10px rgb(53, 255, 130); 
+    background-color: black;
+    color:aqua;
+}
+
+.img5{
+    height: 200px;
+    width: 30%;
+    background-color:white;
+    /* position: relative; */
+    /* top: -300px; */
+    /* left: 450px; */
+    box-shadow: 5px 5px 5px 10px rgb(97, 96, 96);
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+
+}
+
+.p{ 
+    word-spacing: 10px;
+}
+
+.img5:hover{
+    box-shadow:5px 5px 5px 10px rgb(53, 255, 130); 
+    background-color: black;
+    color: aqua;
+}
+
+
+
+
+@media only screen and (max-width:700px){
+    .img4{
+        height: 300px;
+        width: 30%;
+        background-color:white;
+        /* position: relative;/ */
+        top: 10px;
+    box-shadow: 5px 5px 5px 10px rgb(97, 96, 96);
+
+    
+    }
+
+
+    .img5{
+        height: 300px;
+        width: 30%;
+        background-color:white;
+        /* position: relative;/ */
+        top: 10px;
+    
+    }
+
+    /* .container{
+        display: flex;
+        flex-wrap: wrap;
+        grid-gap: 40px;
+        justify-content: center;
+        margin-top: 100px;
+    } */
+
+}
